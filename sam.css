@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+body {
+  font-family: sans-serif;
+}
+
+.social-icons {
+  top: 35%;
+  left: 5%;
+  position: absolute;
+  z-index: 2;
+}
+.social-icons ul li {
+  list-style: none;
+  margin: 70% 0%;
+  font-size: 20px;
+  padding: 0;
+}
+.social-icons ul li a {
+  color: white;
+  display: inline;
+}
+.top-bar {
+  position: absolute;
+  margin: 0.1% 1%;
+  z-index: 2;
+}
+.top-bar img {
+  height: 7%;
+  cursor: pointer;
+}
+.top-bar ul {
+  display: inline-flex;
+}
+.top-bar ul li {
+  list-style: none;
+  margin: 5% 10%;
+}
+.top-bar ul li a {
+  margin-right: 5%;
+  color: white;
+  display: block;
+  padding-top: 5px;
+}
+.dog {
+  width: 10%;
+  margin: 0;
+}
+.navbar {
+  transition: all 0.4s;
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+.navbar.active {
+  background: #fff;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+  color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #555;
+  text-decoration: none;
+}
+.navbar-brand {
+  margin: 0;
+}
+.navbar.active .navbar-brand {
+  color: #555;
+}
+.fa-bars:before {
+  color: #ea3c53;
+}
+.gold {
+  text-transform: capitalize;
+  font-family: "Yellowtail", cursive;
+  color: #d4af37;
+  font-size: 500%;
+}
+.gsa {
+  font-size: 500%;
+  color: silver;
+  opacity: 1;
+}
+.kite {
+  width: 100%;
+}
+/* .place {
+  font-size: 5rem;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  margin-right: 70%;
+  top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+} */
+.tom {
+  padding-bottom: 20%;
+  padding-right: 40%;
+  margin-left: -20%;
+  margin-top: 10%;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 2s;
+  line-height: 1;
+}
+.tom2 {
+  padding-bottom: 10%;
+  padding-right: 40%;
+  margin-left: -20%;
+  margin-top: 10%;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 2s;
+  line-height: 1;
+}
+.rat {
+  font-size: 6rem;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.hur {
+  font-size: 2.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+.tom:hover {
+  opacity: 1;
+}
+.tom2:hover {
+  opacity: 1;
+}
+.carousel-item:hover .carousel-caption .tom {
+  opacity: 1;
+}
